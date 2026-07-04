@@ -1,0 +1,3 @@
+cd "C:\Users\Darre\SMA API"
+dir
+py -m uvicorn backtest_api:app --reload
