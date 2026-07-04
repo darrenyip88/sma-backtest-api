@@ -2,6 +2,8 @@
 
 A FastAPI service that backtests simple moving-average crossover strategies against real historical price data pulled from Yahoo Finance.
 
+Live demo: smaquant.vercel.app
+
 ## What this is
 
 Give it a ticker and two window lengths (a fast SMA and a slow SMA), and it runs a day-by-day backtest: buy when the fast average crosses above the slow average, sell when it crosses back below, starting from $10,000 in cash. It returns the full equity curve, every trade taken, and the final return — enough to plot and evaluate the strategy without doing the simulation client-side.
