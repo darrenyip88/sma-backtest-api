@@ -2,7 +2,7 @@
 
 A FastAPI service that backtests simple moving-average crossover strategies against real historical price data pulled from Yahoo Finance.
 
-Live demo: smaquant.vercel.app
+Live demo: [smaquant.vercel.app]
 
 ## What this is
 
